@@ -27,12 +27,12 @@ jobs:
           tags: rustaciansunny/userfrontendapp:latest
 
       - name: List files in backend directory
-        run: ls -la ./backend
+        run: ls -la ./userfrontend
 
       - name: Build and push Docker image for backend
         uses: docker/build-push-action@v2
         with:
           context: ./backend
-          file: DockerFile
+          file: ./backend/DockerFile
           push: true
           tags: rustaciansunny/myuserbackendapp:latest
