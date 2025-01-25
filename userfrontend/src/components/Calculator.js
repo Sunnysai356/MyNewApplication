@@ -8,7 +8,7 @@ function Calculator() {
 
     const handleOperation = async (operation) => {
         try {
-            const response = await axios.post('http://localhost:8088/api/calculate/calculator', { value1, value2, operation });
+            const response = await axios.post('http://backend-service:8080//api/calculate/calculator', { value1, value2, operation });
             console.log(response.data);
             setResult(response.data);
         } catch (error) {

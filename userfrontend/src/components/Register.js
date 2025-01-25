@@ -30,7 +30,7 @@ function Register() {
             };
             const body = JSON.stringify({ username, email, password });
 
-            const response = await axios.post('http://localhost:8088/api/users/create', body, config);
+            const response = await axios.post('http://backend-service:8080/api/users/create', body, config);
             console.log('User registered:', response.data);
 
             // Handle successful registration (e.g., redirect to login page)

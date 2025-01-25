@@ -10,7 +10,7 @@ function Login() {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8088/api/users/login', { username, password });
+            const response = await axios.post('http://backend-service:8080/api/users/login', { username, password });
             navigate('/calculator');
         } catch (error) {
             alert('Login failed!');

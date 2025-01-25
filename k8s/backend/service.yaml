@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service #This is the name where other components requests service for
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      targetPort: 32763 #internal port that pods are running, when the other components reachout to backedn-service:8080
+  selector:
+    app: backend
+
