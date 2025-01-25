@@ -1,0 +1,101 @@
+POST http://localhost:8088/api/users/create
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=0A467B508AE05E96466D6DB00288AE9E
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "vam",
+  "password": "123456",
+  "email": "vam@gmail.com"
+}
+
+<> 2025-01-24T212645.200.json
+
+###
+
+POST http://localhost:8088/api/users/create
+Content-Type: application/json
+Content-Length: 75
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=0A467B508AE05E96466D6DB00288AE9E
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "vam",
+  "password": "123456",
+  "email": "vam@gmail.com"
+}
+
+<> 2025-01-24T211149.200.json
+
+###
+
+POST http://localhost:8088/api/users/create
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=0A467B508AE05E96466D6DB00288AE9E
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "sam",
+  "password": "123456",
+  "email": "samanth@gmail.com"
+}
+
+<> 2025-01-24T211138.200.json
+
+###
+
+POST http://localhost:8088/api/users/create
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=74DFBF699AB3CEBF9B012304A1D81ABE
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "sam",
+  "password": "123456",
+  "email": "samanth@gmail.com"
+}
+
+###
+
+POST http://localhost:8088/api/users/create
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=5745AB0A32898F9F6BD9EBDD29C7FBB4
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "samanth",
+  "password": "123456",
+  "email": "samanth-sai.challa@gmail.com"
+}
+
+###
+
+POST http://localhost:8088/api/users/create
+Content-Type: application/json
+Content-Length: 96
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "samnathsai",
+  "password": "challa",
+  "email": "samanthsai.challa@gmail.com"
+}
+
+###
+
