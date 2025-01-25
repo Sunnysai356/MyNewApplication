@@ -7,13 +7,6 @@
     <list default="true" id="86ea17ed-7f71-4bac-979d-4f7b56edac61" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/backend/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/backend/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/backend/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/backend/service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/frontend/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/frontend/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/frontend/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/frontend/service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfrontend/src/components/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/userfrontend/src/components/Calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfrontend/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/userfrontend/src/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfrontend/src/components/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/userfrontend/src/components/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737771531135</updated>
-      <workItem from="1737771532830" duration="17985000" />
+      <workItem from="1737771532830" duration="18834000" />
     </task>
     <servers />
   </component>
