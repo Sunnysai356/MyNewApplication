@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: This is the first step for the build process
-        uses: ls -lrt
+        run: ls -lrt
 
       - name: Setup Docker Buildx
         uses: docker/setup-buildx-action@v1
